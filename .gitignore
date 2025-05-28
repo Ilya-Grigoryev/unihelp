@@ -1,0 +1,27 @@
+# macOS sys. files
+.DS_Store
+
+# Python: venv, pycache, database
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Alembic
+backend/alembic/versions/
+
+# Python environment
+.env
+*.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
